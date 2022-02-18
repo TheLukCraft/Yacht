@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "nNeueBW0Tx/PC1KIVhPYU22t9LxJ5Ci9ptDZJN5EIDmLUiYUkA9TsCk2ODEZUoC+KtjIiS+aFmKoQYy1vYNoyw==",
+  "dgSpecHash": "729bLevZ0JQaXji4O6GN978kUHqOmczkbLzPhh5L/mBl3kV/rOi7jdNnTQvNCr7M49GtFXPRLzyhF5DfoqI0rg==",
   "success": true,
   "projectFilePath": "C:\\Users\\KOMP\\source\\repos\\Yacht\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\KOMP\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\KOMP\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\KOMP\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\KOMP\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\KOMP\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",

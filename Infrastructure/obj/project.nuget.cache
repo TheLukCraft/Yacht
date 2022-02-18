@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "6A119qEy+iJonm+aL6ErXqZ8u1RhIuzzrauwTxVZI50zpMho3zWRcX5CCxIS2PGx7PofA8B1i0kD7nBGYuQ4pw==",
+  "dgSpecHash": "zmK9eIZs49Lo0kwFaQ/sJvDRrTiqQNofqyTj/+k698T70BTWRW2hRmhQS2kPCThmjIBO78//XWMCzwLj07GMcw==",
   "success": true,
   "projectFilePath": "C:\\Users\\KOMP\\source\\repos\\Yacht\\Infrastructure\\Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\KOMP\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\KOMP\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }
