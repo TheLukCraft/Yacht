@@ -31,3 +31,5 @@ C:\Users\KOMP\source\repos\Yacht\WebAPI\obj\Debug\net6.0\WebAPI.dll
 C:\Users\KOMP\source\repos\Yacht\WebAPI\obj\Debug\net6.0\ref\WebAPI.dll
 C:\Users\KOMP\source\repos\Yacht\WebAPI\obj\Debug\net6.0\WebAPI.pdb
 C:\Users\KOMP\source\repos\Yacht\WebAPI\obj\Debug\net6.0\WebAPI.genruntimeconfig.cache
+C:\Users\KOMP\source\repos\Yacht\WebAPI\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\KOMP\source\repos\Yacht\WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll

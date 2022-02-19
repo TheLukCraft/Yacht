@@ -1,5 +1,6 @@
 ﻿using Application.Dto;
 using Application.Interfaces;
+using AutoMapper;
 using Domain.Entities;
 using Domain.Interfaces;
 using System;
@@ -13,47 +14,22 @@ namespace Application.Services
     public class YachtsService : IYachtsService
     {
         private readonly IYachtsRepository _yachtsRepository;
-        public YachtsService(IYachtsRepository yachtsRepository)
+        private readonly IMapper _mapper;
+        public YachtsService(IYachtsRepository yachtsRepository, IMapper mapper)
         {
             _yachtsRepository = yachtsRepository;
+            _mapper = mapper;
         }
 
         public IEnumerable<YachtsDto> GetAllYachts()
         {
             var yacht = _yachtsRepository.GetAll();
-            return yacht.Select(yacht => new YachtsDto 
-            {
-                Id = yacht.Id,
-                IdYachtType = yacht.IdYachtType,
-                Name = yacht.Name,
-                Description = yacht.Description,
-                NumberOfSeats = yacht.NumberOfSeats,
-                NumberOfCabins = yacht.NumberOfCabins,
-                Lenght = yacht.Lenght,
-                NumberOfBathrooms = yacht.NumberOfBathrooms,
-                YearOfConstruction = yacht.YearOfConstruction,
-                WiFi = yacht.WiFi,
-                PricePerDay = yacht.PricePerDay,
-
-            });
+            return _mapper.Map<IEnumerable<YachtsDto>>(yacht);
         }
-        public Yachts GetYachtById(int id)
+        public YachtsDto GetYachtById(int id)
         {
             var yacht = _yachtsRepository.GetById(id);
-            return new YachtsDto()
-            {
-                Id = yacht.Id,
-                IdYachtType = yacht.IdYachtType,
-                Name = yacht.Name,
-                Description = yacht.Description,
-                NumberOfSeats = yacht.NumberOfSeats,
-                NumberOfCabins = yacht.NumberOfCabins,
-                Lenght = yacht.Lenght,
-                NumberOfBathrooms = yacht.NumberOfBathrooms,
-                YearOfConstruction = yacht.YearOfConstruction,
-                WiFi = yacht.WiFi,
-                PricePerDay = yacht.PricePerDay,
-            };
+            return _mapper.Map<YachtsDto>(yacht);
         }
     }
 }

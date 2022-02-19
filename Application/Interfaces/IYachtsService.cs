@@ -11,7 +11,7 @@ namespace Application.Interfaces
     public interface IYachtsService
     {
         IEnumerable<YachtsDto> GetAllYachts();
-        Yachts GetYachtById(int id);
+        YachtsDto GetYachtById(int id);
         
     }
 }
